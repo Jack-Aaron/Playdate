@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./stylesheets/style.css" />
+  <link rel='stylesheet' href='/box-shadows.css'>
+  <title>Playdate</title>
+</head>
+
+<body>
+  <!-- body.appendChild[0] -->
+  <header class="jumbotron">
+    <h1 class="display-3">Playdate</h1>
+    <a href="/" class="logout">Logout</a>
+    <!-- body.children[0].children[2].appendChild -->
+  </header>
+  <div class="container">
+    <!-- Timeblocks go here -->
+        <!-- 9AM -->
+    <div id="9am" class="row time-block">
+      <div class="col-md-1 hour">
+        9AM
+      </div>
+      <div class="alert alert-success" role="alert" id = "nineAMAlert">
+
+      </div>
+    </div>
+    <!-- 10AM -->
+    <div id="10" class="row time-block">
+      <div class="col-md-1 hour">
+        10AM
+      </div>
+      <div class="alert alert-success" role="alert" id = "tenAMAlert">
+
+      </div>
+    </div>
+    <!-- 11AM -->
+    <div id="11" class="row time-block">
+      <div class="col-md-1 hour">
+        11AM
+      </div>
+      <div class="alert alert-success" role="alert" id = "elevenAMAlert">
+
+      </div>
+    </div>
+    <!-- 12PM -->
+    <div id="12" class="row time-block">
+      <div class="col-md-1 hour">
+        12PM
+      </div>
+      <div class="alert alert-success" role="alert" id = "twelveAMAlert">
+
+      </div>
+
+    </div>
+    <!-- 1PM -->
+    <div id="13" class="row time-block">
+      <div class="col-md-1 hour">
+        1PM
+      </div>
+      <div class="alert alert-success" role="alert" id = "onePMAlert">
+
+      </div>
+    </div>
+    <!-- 2PM -->
+    <div id="14" class="row time-block">
+      <div class="col-md-1 hour">
+        2PM
+      </div>
+      <div class="alert alert-success" role="alert" id = "twoPMAlert">
+
+      </div>
+    </div>
+    <!-- 3PM -->
+    <div id="15" class="row time-block">
+      <div class="col-md-1 hour">
+        3PM
+      </div>
+      <div class="alert alert-success" role="alert" id = "threePMAlert">
+
+      </div>   </div>
+    <!-- 4PM -->
+    <div id="16" class="row time-block">
+      <div class="col-md-1 hour">
+        4PM
+      </div>
+      <div class="alert alert-success" role="alert" id = "fourPMAlert">
+
+      </div>
+    </div>
+    <!-- 5PM -->
+    <div id="17" class="row time-block">
+      <div class="col-md-1 hour">
+        5PM
+      </div>
+      <div class="alert alert-success" role="alert" id = "fivePMAlert">
+
+      </div>
+    </div>
+    <!-- 6PM -->
+    <div id="18" class="row time-block">
+      <div class="col-md-1 hour">
+        6PM
+      </div>
+      <div class="alert alert-success" role="alert" id = "sixPMAlert">
+
+      </div>
+    </div>
+    <!-- 7PM -->
+    <div id="19" class="row time-block">
+      <div class="col-md-1 hour">
+        7PM
+      </div>
+      <div class="alert alert-success" role="alert" id = "sevenPMAlert">
+
+      </div>
+    </div>
+    <!-- 8PM -->
+    <div id="20" class="row time-block">
+      <div class="col-md-1 hour">
+        8PM
+      </div>
+      <div class="alert alert-success" role="alert" id = "eightPMAlert">
+
+      </div>
+    </div>
+    <!-- 9PM -->
+    <div id="21" class="row time-block">
+      <div class="col-md-1 hour">
+        9PM
+      </div>
+      <div class="alert alert-success" role="alert" id = "ninePMAlert">
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./js/schedules.js"></script>
+</body>
+
+</html>
