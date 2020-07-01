@@ -13,6 +13,7 @@ Organize events, meet-ups, sports and games with friends. Share your availabilit
 * jQuery
 * JSON
 * [Moment.js](https://momentjs.com/)
+* [Passport](https://www.npmjs.com/package/passport)
 * Express.js
 * MySQL
 * Sequelize
