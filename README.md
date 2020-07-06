@@ -1,4 +1,4 @@
-# PlayDate
+# Playdate
 
 ### Overview
 
